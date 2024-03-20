@@ -27,7 +27,7 @@
     />
 </head>
 <body>
-  <div class="homePage" style="background-color: black;">
+  <div class="homePage">
     <!--------------Header------------------>
     <section class="header">
       <!-------------NavBar Menu--------------->
@@ -35,7 +35,9 @@
           <div class="logo">
             <div class="imagee-logo">
               <p class="textLogo1">BOTTLE</p>
-              <img src="" alt="">
+              <img 
+              src="../images/HomePage/NavBarHeader/logo.jpg" 
+              alt="Logo">
 
             </div>
             <div class="textLogo2">PET</div>
@@ -96,8 +98,78 @@
               onclick="openNavBar()"
               ></i>
             </div>
-      </nav>
+        </nav>
     </section>
+
+    <!--------------Scroll up button--------------->
+    <a href="#" class="goToUp">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-----------------Banner--------------->
+    <section class="box-banner">
+      <div class="image-banner"></div>
+      <div class="text-btn-banner">
+        <div class="text-header">PETBOT COMPANY</div>
+        <p>
+          Our company specializes in supplying all kinds of PET, PP, PC
+          bottles
+        </p>
+        <button class="btn">
+          <a href="#">About Us</a>
+        </button>
+      </div>
+    </section>
+
+    <!--------------Content---------------->
+    <div class="contents">
+      <section class="products">
+        <!----------------our product--------------->
+        <h2>| Our Products</h2>
+        <p id="text">
+            Save your money and time with our Store. Here's the best part of our 
+            impressive assourtnent.
+        </p>
+        <!--------------menu show item with selection button----------------->
+        <ul class="menu_buttons">
+          <li>
+            <span class="btn active" onclick="showItems('all')">All</span>
+          </li>
+          <li>
+            <span class="btn" onclick="showItems('latest')">Latest</span>
+          </li>
+          <li>
+            <span
+              class="btn"
+              onclick="showItems('best-Sellers')"
+              style="white-space: nowrap"
+              >Best-Sellers</span
+            >
+          </li>
+          <li>
+            <span class="btn" onclick="showItems('spesial')">Spesial</span>
+          </li>
+        </ul>
+        <!----------Show item here ---------->
+        <div class="products-container"></div>
+        <ul class="listPage">
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <!----------show cartTab right----------->
+        <div class="cartTab">
+          <h1>Shopping Cart</h1>
+          <div class="listCart"></div>
+          <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">
+              <a href="#"></a>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
   
 </body>
