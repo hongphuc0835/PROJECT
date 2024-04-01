@@ -1,0 +1,171 @@
+.homePage{
+    position: relative;
+    width: auto;
+    margin: auto;
+}
+
+/*============= Banmer =============*/
+.box-banner{
+    position: static;
+    width: 100%;
+}
+
+.image-banner{
+    background-image: url('../images/HomePage/Banner/Banner2024.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 36rem;
+
+}
+ 
+.text-btn-banner .text-header{
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-weight: bolder;
+    font-size:2rem ;
+    margin-bottom: 1rem; 
+}
+
+.text-btn-banner p{
+    font-size: 1.5rem;
+}
+
+.box-banner .btn {
+    margin-top: 1rem;
+    background: #dfdfdf;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+}
+
+.box-banner .btn:hover a {
+    color: #ffffff;
+
+}
+
+.box-banner .btn:hover {
+    background: #000000;
+
+}
+
+.box-banner .btn a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.text-btn-banner {
+    text-align: center;
+    width: 27rem;
+    float: right;
+    line-height: 2.5rem;
+    margin-top: -25rem;
+    margin-right: 6rem;
+}
+
+/*========== end banner ============*/
+
+/*========== Contents include: Products and Aside (email, feedback, latest news)*/
+.contents {
+    display: flex;
+    height: max-content;
+    position: relative;
+
+}
+
+/*==============Products===========*/
+.products{
+    position: relative;
+    width: 60.41%;
+    margin-left: 5%;
+    height: max-content;
+}
+
+.products h2 {
+    font-weight:bold;
+    font-size: 2.2rem;
+
+}
+
+.products #text {
+   color: #777777;
+   padding: 0 0.5rem;
+}
+
+.menu_buttons {
+    padding: 1rem 0 1.5rem 0;
+    display: flex;
+}
+
+.menu_buttons .btn{
+    margin-right: 0.2rem;
+    background-color: #DDDEE2;
+    color: #000000;
+    padding: 0.8rem 2.5rem;
+    cursor: pointer;
+}
+
+.menu_buttons .btn:hover{
+    opacity: 0.5;
+}
+
+.menu_buttons .btn.active {
+    transition: s;
+    color: #ffffff;
+    background: #000000;
+}
+
+.listPage {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.listPage li {
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+}
+
+.listPage li:hover {
+    background-color: #eeeeee;
+
+}
+
+.listPage .active {
+    background-attachment: #eeeeee;
+}
+
+.introducing {
+    width: 100%;
+
+    margin: 2.8rem 0 5rem;
+}
+
+.introduce .box{
+    line-height: 1.5rem;
+    width: 100%;
+    padding: 2rem 0.5rem 1rem 0;
+}
+
+.introduce .box h2{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.introduce .box p{
+    padding:  0 0 0 2rem;
+    color: #000000;
+    word-spacing: 0.4rem ;
+}
+
+.introduce .image{
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    height: 38rem;
+    box-shadow: 0 1px 2px 0 rgba(241, 241, 241, 0.2), 0 1.5px 5px 0 rgba(241, 241, 241, 0.19);
+}
+
+.introduce .image img{
+    height: 35rem;
+    width: 100%;
+}
