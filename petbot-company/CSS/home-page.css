@@ -169,3 +169,128 @@
     height: 35rem;
     width: 100%;
 }
+
+/*===========End Product ==========*/
+
+/*=======Aside=========*/
+
+aside{
+    position: relative;
+    width: 25%;
+    margin: 4.5rem auto;
+    height: max-content;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+aside .receive-email{
+    padding: 3rem 2rem;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 4rem;
+}
+
+aside .receive-email:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0. 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.receive-email title{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.receive-email .text{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.receive-email input{
+    width: max-content;
+    text-align: center;
+    padding: 0.8rem 2rem;
+
+}
+
+.receive-email button{
+    padding: 0.5rem 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.receive-email button:hover{
+    opacity: 1;
+}
+
+aside .testimonials{
+    width: 88%;
+    z-index: 1;
+    margin: auto;
+}
+
+.testimonials .row-1{
+    position:  relative;
+    padding: 5rem 0 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.testimonials .row-1 .btns{
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.testimonials .row-1 .btn{
+    opacity: 0.5;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #dfdfdf;
+}
+
+.testimonials .row-1 .btn:hover{
+    opacity: 1;
+}
+
+.testimonials .contents{
+    position: relative;
+    line-height: 1.5rem;
+    text-align: center;
+    display: block;
+}
+
+.testimonials .contents .feedback{
+    display: none;
+    padding: 1rem;
+
+}
+
+.testimonials .contents .feedback:hover{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.testimonials .contents img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.latest-new{
+    position: relative;
+    width: 88%;
+    margin: 6rem auto;
+}
+
+.latest-new img{
+    width: 100%;
+    height: 12rem;
+
+}
+
