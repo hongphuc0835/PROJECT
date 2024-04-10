@@ -224,6 +224,7 @@ aside .receive-email:hover{
     color: #ffffff;
     opacity: 0.8;
     cursor: pointer;
+    margin-left: 1.5rem;
 }
 
 .receive-email button:hover{
@@ -316,10 +317,63 @@ aside .testimonials{
     margin-bottom: 2rem;
 }
 
-.latest-news.box-btn{
+.latest-news .box-btn{
     text-align: center;
 }
 
 .latest-news .btn{
-    
+    cursor: pointer;
+    font-size: 0.8rem;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+.latest-news .btn:hover{
+    background-color: #777777;
+}
+
+.faq{
+    width: 100%;
+    margin: 6rem auto 0;
+}
+
+.accordion li{
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 10px;
+    /* font-size: 1.5rem; */
+    color: var(--main-color);
+    box-shadow: 0 1px 2px 0 rgba(196, 196, 196, 0.2), 0 1.5px 5px 0 rgba(196, 196, 196, 0.19);
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+label::before{
+    content: '+';
+    margin-right:10px ;
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+.accordion .content-question{
+    background-color: #DDDEE2;
+    font-size: 1rem;
+    color: #000000;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transform: max-height 0.5s, padding 0.5s;
 }
